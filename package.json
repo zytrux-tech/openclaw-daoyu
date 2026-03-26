@@ -1,0 +1,50 @@
+{
+  "name": "@zytrux/daoyu",
+  "version": "0.1.16",
+  "type": "module",
+  "description": "Daoyu channel plugin for OpenClaw",
+  "author": "zytrux",
+  "license": "MIT",
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "channel",
+    "chat",
+    "daoyu"
+  ],
+  "homepage": "https://github.com/zytrux-tech/openclaw-daoyu",
+  "bugs": {
+    "url": "https://github.com/zytrux-tech/openclaw-daoyu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zytrux-tech/openclaw-daoyu.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "openclaw.plugin.json"
+  ],
+  "dependencies": {
+    "zod": "^4.3.6",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "@types/ws": "^8.5.12",
+    "openclaw": "^2026.3.23",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.3.23"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
