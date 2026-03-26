@@ -1,6 +1,6 @@
 {
   "name": "@zytrux/daoyu",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "type": "module",
   "description": "Daoyu 3D AI conversation channel plugin for OpenClaw.",
   "author": "zytrux",

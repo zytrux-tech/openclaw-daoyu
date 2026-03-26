@@ -41,7 +41,7 @@ openclaw plugins install @zytrux/daoyu
 Install from a local archive:
 
 ```bash
-openclaw plugins install ./zytrux-daoyu-0.1.16.tgz
+openclaw plugins install ./zytrux-daoyu-0.1.17.tgz
 ```
 
 ### Upgrade
@@ -50,7 +50,7 @@ Repack and reinstall the plugin after code changes:
 
 ```bash
 pnpm pack
-openclaw plugins install ./zytrux-daoyu-0.1.16.tgz
+openclaw plugins install ./zytrux-daoyu-0.1.17.tgz
 ```
 
 Then restart the gateway:
@@ -223,7 +223,7 @@ openclaw plugins install @zytrux/daoyu
 从本地压缩包安装：
 
 ```bash
-openclaw plugins install ./zytrux-daoyu-0.1.16.tgz
+openclaw plugins install ./zytrux-daoyu-0.1.17.tgz
 ```
 
 ### 升级
@@ -232,7 +232,7 @@ openclaw plugins install ./zytrux-daoyu-0.1.16.tgz
 
 ```bash
 pnpm pack
-openclaw plugins install ./zytrux-daoyu-0.1.16.tgz
+openclaw plugins install ./zytrux-daoyu-0.1.17.tgz
 ```
 
 然后重启网关：
