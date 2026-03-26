@@ -2,7 +2,7 @@
   "name": "@zytrux/daoyu",
   "version": "0.1.16",
   "type": "module",
-  "description": "Daoyu channel plugin for OpenClaw",
+  "description": "Daoyu 3D AI conversation channel plugin for OpenClaw.",
   "author": "zytrux",
   "license": "MIT",
   "keywords": [
@@ -10,7 +10,10 @@
     "plugin",
     "channel",
     "chat",
-    "daoyu"
+    "daoyu",
+    "ai",
+    "3d",
+    "conversation"
   ],
   "homepage": "https://github.com/zytrux-tech/openclaw-daoyu",
   "bugs": {
