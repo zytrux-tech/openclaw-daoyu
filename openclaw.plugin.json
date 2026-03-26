@@ -1,7 +1,9 @@
 {
   "id": "daoyu",
+  "name": "Daoyu",
+  "version": "0.1.17",
+  "description": "Daoyu 3D AI conversation channel plugin for OpenClaw.",
   "channels": ["daoyu"],
-  "skills": [],
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
